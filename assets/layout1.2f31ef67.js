@@ -1,0 +1,1 @@
+import{_ as t,o as n,e as a,l as s,i as o}from"./index.954a2cbc.js";const c={},d={class:"layout-wrapper"},r={class:"one"},_={class:"two"};function i(e,l){return n(),a("div",d,[s("div",r,[o(e.$slots,"one",{},void 0,!0)]),s("div",_,[o(e.$slots,"two",{},void 0,!0)])])}const u=t(c,[["render",i],["__scopeId","data-v-d0f008d3"]]);export{u as L};

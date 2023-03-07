@@ -1,0 +1,3 @@
+import{d,r,J as p,a as c,b as f,g as u,o as m,c as i,bQ as h,bN as M}from"./index.954a2cbc.js";import{M as _}from"./MultiLineResult.0bab4ef4.js";const L=d({__name:"index",setup(g){const l=r(`A Free, Modern Toolbox
+Built for Developers.
+`),a=r("");p(()=>{s()});function s(){let e=l.value,t="";for(let o=0;o<e.length;o++){let n=e[o].charCodeAt(0).toString(16);n.length===1&&(n="0"+n),t+="\\u{"+n+"}"}a.value=t}return(e,t)=>(m(),c(u(M),{"max-width":1280},{one:f(()=>[i(u(h),{modelValue:l.value,"onUpdate:modelValue":t[0]||(t[0]=o=>l.value=o),title:e.$t("utf16Encode.input"),onChange:s},null,8,["modelValue","title"]),i(u(_),{result:a.value,"result-desc":e.$t("utf16Encode.output")},null,8,["result","result-desc"])]),_:1}))}});export{L as default};
